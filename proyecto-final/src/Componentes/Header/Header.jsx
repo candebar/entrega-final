@@ -16,8 +16,8 @@ return(
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/Seccion">Inicio</Nav.Link>
-            <Nav.Link href="/Reservas">Reservas</Nav.Link>
+            <Nav.Link href="/seccion">Inicio</Nav.Link>
+            <Nav.Link href="/reservas">Reservas</Nav.Link>
             <NavDropdown title="Nuestras propuestas" id="basic-nav-dropdown">
               <NavDropdown.Item href="ReservasO">Reservas ocasionales</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

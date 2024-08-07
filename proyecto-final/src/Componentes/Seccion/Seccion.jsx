@@ -12,7 +12,7 @@ function Seccion() {
             <p className="parrafo">En Delta Sports te acercamos diferentes propuestas para que vengas a compartir momentos de calidad con amigos y familia, al mismo tiempo que cuidas de tu salud haciendo deporte.</p>
 
             <div>
-    <Carousel>
+    <Carousel className='carrusel'>
       <Carousel.Item interval={1000}>
         <img src={canchaPadel} alt="cancha" className='imgcancha' text="First slide" />  
         <Carousel.Caption>
@@ -31,7 +31,7 @@ function Seccion() {
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
+    </Carousel> 
             </div>
 
         </section>)
