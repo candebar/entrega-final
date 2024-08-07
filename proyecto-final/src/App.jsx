@@ -15,10 +15,11 @@ function App() {
         <Header />
         
         <Routes>
-          <Route path="/Seccion" element={<Seccion />} />
-          <Route path="/Canchas" element={<Canchas />} />
+        <Route path="/" element={<Seccion />} />
+          <Route path="/seccion" element={<Seccion />} />
+          <Route path="/canchas" element={<Canchas />} />
           
-          <Route path="/Reservas" element={<Formulario />} />
+          <Route path="/reservas" element={<Formulario />} />
 
         </Routes>
         
