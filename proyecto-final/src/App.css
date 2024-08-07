@@ -1,0 +1,7 @@
+.contenedor-total{
+  padding: 0%;
+  margin: 0%;
+  background-color: black;
+  background-image: url(./assets/fondo1.jpg);
+  background-repeat: repeat;
+}
