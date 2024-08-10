@@ -8,7 +8,6 @@ function Canchas (){
       ¿Pintó un partidito a último momento?
       ¡Siempre estás a tiempo de reservar!
       </h4>
-        {/* <p className="parrafo">En Delta Sports te acercamos diferentes propuestas para que vengas a compartir momentos de calidad con amigos y familia, al mismo tiempo que cuidas de tu salud haciendo deporte.</p> */}
  
       </div>);
       }
