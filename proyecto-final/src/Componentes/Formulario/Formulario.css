@@ -1,31 +1,38 @@
-/* Estilos generales */
- /* body {
+
+   /* body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-} 
+}  
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 20vh;
   padding: 20px;
-} 
+}  */
+.container{
+  display: flex;
+}
 
-/* Estilos para el formulario */
-/* .form {
+
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-  padding: 20px;
+  margin-left: 200px;
+  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #041f07fb;
+  color: #eeeeeef3;
+  text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 20vw;
 }
 
 .inputGroup {
@@ -48,7 +55,7 @@
   border-radius: 3px;
 }
 
-/* Estilos para el botón */
+
 .button {
   padding: 10px 20px;
   background-color: #007BFF;
@@ -62,7 +69,7 @@
   background-color: #0056b3;
 }
 
-/* Estilos para el botón de eliminar */
+
 .deleteButton {
   padding: 5px 10px;
   background-color: #dc3545;
@@ -77,7 +84,6 @@
   background-color: #c82333;
 }
 
-/* Estilos para el contenedor de datos */
 .dataContainer {
   display: flex;
   flex-direction: column;
@@ -87,7 +93,8 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #041f07fb;
+  color: #eeeeeef3;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -101,7 +108,7 @@
   border: 1px solid #eee;
   border-radius: 3px;
   width: 100%;
-  background-color: #fafafa;
+  background-color: #080000;
   position: relative;
 }
 
@@ -109,7 +116,7 @@
   margin: 0;
 }
 
-/* Media Queries */
+
 @media (min-width: 768px) {
   .container {
       flex-direction: row;
@@ -136,8 +143,14 @@
 
   .deleteButton {
       width: 100%;
-  } */
-} */
+  } 
+} 
+
+
+
+
+
+
 /* body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -218,5 +231,5 @@
     cursor: pointer;
   }
   .user-item button:hover {
-    background-color: #c82333;
-  } */
+    background-color: #c82333; 
+  }*/
