@@ -19,15 +19,9 @@ return(
             <Nav.Link href="/seccion">Inicio</Nav.Link>
             <Nav.Link href="/reservas">Reservas</Nav.Link>
             <NavDropdown title="Nuestras propuestas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="ReservasO">Reservas ocasionales</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Reservas mensuales
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Cumpleaños y festejos</NavDropdown.Item>
+              <NavDropdown.Item href="/eventos">Cumpleaños y festejos</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Conseguí tu equipamiento</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Conseguí tu equipamento
-              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

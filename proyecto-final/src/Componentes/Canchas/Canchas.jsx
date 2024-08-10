@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 
 function Canchas (){
     return(
-       
         <div className='canchas-titulos'>
-        <h3 className='canchas-t1'>¡Te mostramos todas nuestras sedes en toda la provincia!</h3>
-        <h4 className='canchas-t2'>Estamos cerca tuyo</h4> 
+          <h4>
+      ¿Pintó un partidito a último momento?
+      ¡Siempre estás a tiempo de reservar!
+      </h4>
+        {/* <p className="parrafo">En Delta Sports te acercamos diferentes propuestas para que vengas a compartir momentos de calidad con amigos y familia, al mismo tiempo que cuidas de tu salud haciendo deporte.</p> */}
+ 
       </div>);
       }
         

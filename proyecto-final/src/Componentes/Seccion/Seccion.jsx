@@ -9,26 +9,24 @@ function Seccion() {
     return (
         <section className='seccion'>
             <Link to="/Seccion" />
-            <p className="parrafo">En Delta Sports te acercamos diferentes propuestas para que vengas a compartir momentos de calidad con amigos y familia, al mismo tiempo que cuidas de tu salud haciendo deporte.</p>
-
             <div>
     <Carousel className='carrusel'>
       <Carousel.Item interval={1000}>
         <img src={canchaPadel} alt="cancha" className='imgcancha' text="First slide" />  
         <Carousel.Caption>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Cancha 1 ¡La preferida de todos!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
       <img src={cancha2} alt="jugadores" className='imgjugador' text="Second slide"/>  
         <Carousel.Caption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Cancha 2</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img src={cancha3} alt="jugadores" className='imgjugador'text="Third slide" />
         <Carousel.Caption>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Cancha 3</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel> 
