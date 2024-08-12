@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Formulario.css'; 
-
+import { Link } from 'react-router-dom';
 
 function Formulario() {
   const [formData, setFormData] = useState({
@@ -36,7 +36,7 @@ function Formulario() {
 
   return (
     <div className="container">
-      
+      {<Link to="/reservas" /> }
       <form onSubmit={handleSubmit} className="form">
         <div className="inputGroup">
           <label className="label">Nombre:</label>

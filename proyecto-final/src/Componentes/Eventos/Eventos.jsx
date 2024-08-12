@@ -1,12 +1,12 @@
 import "./Eventos.css"
 import quincho from "../../assets/Quincho1.jpg";
 import quinchoabierto from "../../assets/quinchoabierto1.jpeg"
-
+import { Link } from 'react-router-dom';
 function Eventos() {
   return (
     <section className="eventos">
       <div>
-      
+      { <Link to="/eventos" /> }
         <h4 className="techado">QUINCHO TECHADO</h4>
         <p className="texto"><b>El Espacio Ideal para tus Reuniones y Eventos.</b> En el corazón de nuestra moderna cancha de pádel, te invitamos a descubrir nuestro espacioso y versátil quincho, diseñado para ofrecerte una experiencia inigualable. Con capacidad para hasta 60 personas, este quincho es el lugar perfecto para celebrar todo tipo de eventos, desde reuniones familiares y festejos con amigos hasta encuentros corporativos y celebraciones especiales.</p>
         <img src={quincho} alt="quincho" />
