@@ -16,10 +16,10 @@ return(
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/seccion">Inicio</Nav.Link>
-            <Nav.Link href="/reservas">Reservas</Nav.Link>
+            <Nav.Link to="/seccion">Inicio</Nav.Link>
+            <Nav.Link to="/reservas">Reservas</Nav.Link>
             <NavDropdown title="Nuestras propuestas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/eventos">Cumpleaños y festejos</NavDropdown.Item>
+              <NavDropdown.Item to="/eventos">Cumpleaños y festejos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
