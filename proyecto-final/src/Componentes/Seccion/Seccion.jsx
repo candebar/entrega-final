@@ -8,7 +8,7 @@ import cancha3 from '../../assets/cancha3.jpg';
 function Seccion() {
     return (
         <section className='seccion'>
-            <Link to="/seccion" />
+            {/* <Link to="/seccion" /> */}
             <div>
               <br />
     <Carousel className='carrusel'>
