@@ -16,7 +16,7 @@ function App() {
       <div className='contenedor-total'>
         <Header />
         
-        <Routes>
+        <Routes basename="/proyectointegrador">
         <Route path="/" element={<Seccion />} />
           <Route path="/seccion" element={<Seccion />} />
            <Route path="/reservas" element={<div><Canchas /><Formulario /></div>} />
