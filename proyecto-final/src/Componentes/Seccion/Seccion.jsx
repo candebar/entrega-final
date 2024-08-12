@@ -10,6 +10,7 @@ function Seccion() {
         <section className='seccion'>
             <Link to="/Seccion" />
             <div>
+              <br />
     <Carousel className='carrusel'>
       <Carousel.Item interval={1000}>
         <img src={canchaPadel} alt="cancha" className='imgjugador' text="First slide" />  
