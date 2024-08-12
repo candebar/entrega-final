@@ -36,6 +36,7 @@ function Formulario() {
 
   return (
     <div className="container">
+       <Link to="/reservas" />
       <form onSubmit={handleSubmit} className="form">
         <div className="inputGroup">
           <label className="label">Nombre:</label>
