@@ -21,3 +21,15 @@
 .contactos{
     margin-right: 10px;
 }
+@media(min-width:577px){
+    .contenedor-total{
+      width: 100vw;
+      overflow-x: hidden;
+    }
+   }
+@media(max-width: 576px){
+    .contenedor-contactos{
+        display: block;
+        width: 80vw;
+    }
+}

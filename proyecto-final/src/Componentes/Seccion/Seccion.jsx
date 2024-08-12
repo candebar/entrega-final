@@ -12,7 +12,7 @@ function Seccion() {
             <div>
     <Carousel className='carrusel'>
       <Carousel.Item interval={1000}>
-        <img src={canchaPadel} alt="cancha" className='imgcancha' text="First slide" />  
+        <img src={canchaPadel} alt="cancha" className='imgjugador' text="First slide" />  
         <Carousel.Caption>
           <p>Cancha 1 ¡La preferida de todos!</p>
         </Carousel.Caption>
