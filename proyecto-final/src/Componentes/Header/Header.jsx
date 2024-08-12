@@ -20,8 +20,6 @@ return(
             <Nav.Link href="/reservas">Reservas</Nav.Link>
             <NavDropdown title="Nuestras propuestas" id="basic-nav-dropdown">
               <NavDropdown.Item href="/eventos">Cumpleaños y festejos</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Conseguí tu equipamiento</NavDropdown.Item>
-              <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

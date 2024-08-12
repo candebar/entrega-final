@@ -102,36 +102,33 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 778px) {
   .container {
       flex-direction: row;
   }
 
   .form {
-      margin-right: 40px;
+      margin-right: 20px;
   }
 
   .dataContainer {
-      margin-left: 40px;
+      margin-left: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .input {
-      width: 100%;
-      max-width: 100%;
+  .form,
+  .dataContainer {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
   }
 
-  .button {
-      width: 100%;
-  }
-
+  .button,
   .deleteButton {
-      width: 100%;
-  } 
-} 
-
-
+    width: 100%;
+  }
+}
 
 
 

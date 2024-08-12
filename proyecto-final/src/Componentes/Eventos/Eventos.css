@@ -1,0 +1,23 @@
+.eventos {
+    background-color: rgba(3, 27, 3, 0.863);
+    color: azure;
+    border: 2px solid black;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 1rem; 
+}
+
+.eventos img {
+    width: 40%;
+}
+
+.texto {
+    text-align: left;
+}
+.contactos{
+    margin-right: 10px;
+}

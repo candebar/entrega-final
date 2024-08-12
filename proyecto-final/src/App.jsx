@@ -6,8 +6,8 @@ import Seccion from './Componentes/Seccion/Seccion'
 import Canchas from './Componentes/Canchas/Canchas'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Formulario from './Componentes/Formulario/Formulario'
-import Propuestas from './Componentes/Propuestas/Propuestas'
 import Tarjetaquincho from './Componentes/Tarjeta/Tarjeta'
+import Eventos from './Componentes/Eventos/Eventos'
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Seccion />} />
           <Route path="/seccion" element={<Seccion />} />
            <Route path="/reservas" element={<div><Canchas /><Formulario /></div>} />
-          <Route path="/eventos" element={ <div> <Propuestas /><Tarjetaquincho /></div>} />
+          <Route path="/eventos" element={ <div> <Tarjetaquincho /><Eventos /></div>} />
           
          
 

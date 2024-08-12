@@ -1,21 +1,10 @@
-import Card from 'react-bootstrap/Card';
-import quinchoprimera from '../../assets/quinchoprimera.jpg'
+import './Tarjeta.css'
 
 function Tarjetaquincho() {
   return (
-    <img src={quinchoprimera} alt="fotoquincho" />
-    // <Card className="tarjeta1 bg-dark text-white">
-    //   <Card.Img src={quinchoprimera} alt="Card image" className='imagen' />
-    //   <Card.ImgOverlay>
-    //     <Card.Title>Card title</Card.Title>
-    //     <Card.Text>
-    //       This is a wider card with supporting text below as a natural lead-in
-    //       to additional content. This content is a little bit longer.
-    //     </Card.Text>
-    //     <Card.Text>Last updated 3 mins ago</Card.Text>
-    //   </Card.ImgOverlay>
-    // </Card>
-  );
+    <div className='contenedor-tarjeta'>
+   <p className="parrafo-tarjeta">Sabemos que te apasiona jugar, pero una cosa lleva a la otra, y quien dice partidito también dice asado con amigos. Por eso, te resolvemos el problema. No hace falta que busques donde comer el asado post partido, ¡podés hacerlo acá!</p>
+  </div>);
 }
 
 export default Tarjetaquincho;
