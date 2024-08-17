@@ -1,4 +1,6 @@
-
+body{
+  overflow-x: hidden;
+}
 .contenedor-total{
   padding: 0;
   margin: 0;

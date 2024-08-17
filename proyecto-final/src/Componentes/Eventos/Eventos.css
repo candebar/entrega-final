@@ -12,7 +12,8 @@
 }
 
 .eventos img {
-    width: 40%;
+    max-width: 100%;
+    height: auto;
 }
 
 .texto {
@@ -20,6 +21,10 @@
 }
 .contactos{
     margin-right: 10px;
+}
+.contenedor-contactos{
+    max-width: 100%;
+    box-sizing: border-box;
 }
 @media(min-width:577px){
     .contenedor-total{
